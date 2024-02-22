@@ -1,4 +1,4 @@
-- ** Paso 1: Crear un script y otorgale permisos de ejecucion **
+- **Paso 1: Crear un script y otorgale permisos de ejecucion**
   
     - sudo nano /usr/bin/myScript.sh
 
@@ -10,7 +10,7 @@
     
     - sudo chmod  +x /usr/bin/myScript.sh
 
-- ** Paso 2: Crear un archivo System unit **
+- **Paso 2: Crear un archivo System unit**
     - sudo nano /lib/systemd/system/myShell.service 
         Es muy importante que el archivo tenga extension ".service"
     
@@ -24,7 +24,7 @@
         [Install]
         WantedBy=multi-user.target
         ``` 
-- **Paso 3: Habilitar el Servicio **
+- **Paso 3: Habilitar el Servicio**
     Se debe recargar el demonio del sistema cada vez que se realice un cambio en el archivo ".service"
     - sudo systemctl daemon-reload 
     
