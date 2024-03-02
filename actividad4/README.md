@@ -6,7 +6,7 @@ Despues de presionar Enter, automaticamente aparece el mensaje en la console de 
 ![](./imgs/enviar.png)
 
 - **Paso 3:** Ingresar texto en "./user2.sh"
-Ahora el usuario 2 puede responder ingresando el texto y posteriormente presionando enter
+Ahora el usuario 2 puede responder a user1 ingresando el mensaje en consola y posteriormente presionando enter
 ![](./imgs/respuesta.png)
 
-**NOTA** Si el pipe existe, el script lo crea
+**NOTA** Si el pipe NO EXISTE, el script lo crea
